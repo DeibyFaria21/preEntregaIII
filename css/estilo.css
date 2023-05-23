@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: JosefinSans-Medium;
+  src: url("../fonts/Josefin_Sans/JosefinSans-Medium.ttf"); }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Kanit', sans-serif; }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    background: linear-gradient(#6221ad, #34035c);
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: JosefinSans-Medium;
+    line-height: 1.5; }
+    body main .keycapstitle {
+      text-align: center; }
+      body main .keycapstitle img {
+        width: 6%; } }
+
+@media (min-width: 768px) {
+  body {
+    background: linear-gradient(#431675, #250242);
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: JosefinSans-Medium;
+    line-height: 1.5; }
+    body main .keycapstitle {
+      text-align: center; }
+      body main .keycapstitle img {
+        width: 6%; } }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  header .banner {
+    border: solid #4c5bb1;
+    border-radius: 10px;
+    background-image: url("../images/tecladobanner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    header .banner .eslogan {
+      font-family: 'Kanit', sans-serif;
+      font-size: 1.8rem;
+      color: #0e358a;
+      font-weight: bold; }
+    header .banner img {
+      margin: 5px;
+      width: 10%;
+      height: 10%;
+      border: solid #4c5bb1;
+      border-radius: 50%; }
+  header .navbar {
+    display: flex;
+    justify-items: auto;
+    background-color: #b7a2dd;
+    border: solid #4c5bb1;
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 0;
+    padding-right: 15px;
+    width: 95%;
+    margin: 2% auto; }
+    header .navbar button.navbar-toggler {
+      background-color: #4c5bb1; }
+    header .navbar .navbar-brand:hover h1 {
+      color: #147550; }
+    header .navbar .navbar-brand h1 {
+      margin-left: 10%;
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold; }
+    header .navbar .nav-link:hover {
+      color: #147550; }
+    header .navbar .nav-link {
+      margin-left: 15px;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: center; } }
+
+@media (min-width: 768px) {
+  header .banner {
+    border: solid #147550;
+    border-radius: 10px;
+    background-image: url("../images/tecladobanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    header .banner .eslogan {
+      font-family: 'Kanit', sans-serif;
+      font-size: 1.8rem;
+      color: #ffffff;
+      font-weight: bold; }
+    header .banner img {
+      margin: 5px;
+      width: 10%;
+      height: 10%;
+      border: solid #147550;
+      border-radius: 50%; }
+  header .navbar {
+    display: flex;
+    justify-items: auto;
+    background-color: #212529;
+    border: solid #147550;
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 0;
+    padding-right: 15px;
+    width: 95%;
+    margin: 2% auto; }
+    header .navbar button.navbar-toggler {
+      background-color: #147550; }
+    header .navbar .navbar-brand:hover h1 {
+      color: #147550; }
+    header .navbar .navbar-brand h1 {
+      margin-left: 10%;
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold; }
+    header .navbar .nav-link:hover {
+      color: #147550; }
+    header .navbar .nav-link {
+      margin-left: 15px;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: center; } }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  main .cajatarjetas {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
+    color: #0e358a;
+    border: solid #4c5bb1;
+    border-radius: 20px;
+    background-color: #b7a2dd; }
+    main .cajatarjetas .encabezado .textofz {
+      margin: 20px;
+      text-decoration: underline;
+      text-align: center; }
+    main .cajatarjetas .card {
+      background-color: #adc9da;
+      border: solid #4c5bb1; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  main .cajatarjetas {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
+    color: whitesmoke;
+    border: solid #147550;
+    border-radius: 20px;
+    background-color: #212529; }
+    main .cajatarjetas .encabezado .textofz {
+      margin: 20px;
+      text-decoration: underline;
+      text-align: center; }
+    main .cajatarjetas .card {
+      background-color: #4e695f;
+      border: solid #147550; }
+      main .cajatarjetas .card .card-text {
+        font-size: 0.9rem; } }
+
+@media (min-width: 1200px) {
+  main .cajatarjetas {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
+    color: whitesmoke;
+    border: solid #147550;
+    border-radius: 20px;
+    background-color: #212529; }
+    main .cajatarjetas .encabezado .textofz {
+      margin: 20px;
+      text-decoration: underline;
+      text-align: center; }
+    main .cajatarjetas .card {
+      background-color: #4e695f;
+      border: solid #147550; }
+      main .cajatarjetas .card .card-text {
+        font-size: 1.2rem; } }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  footer .sorteobox {
+    margin: auto;
+    padding: 20px;
+    width: 75%;
+    text-align: center;
+    background-color: #adc9da;
+    color: #0e358a;
+    border: solid #4c5bb1;
+    border-radius: 30px;
+    border-width: 2.5px; }
+    footer .sorteobox .textosorteo {
+      text-decoration: underline; }
+    footer .sorteobox .parrasort .sort {
+      text-decoration: underline;
+      color: #0e358a; }
+    footer .sorteobox .premio {
+      border-style: solid;
+      border-radius: 15px;
+      width: 15%;
+      border-color: #0e358a;
+      border-width: 1.8px; }
+  footer .iconred {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; }
+    footer .iconred .botonred {
+      margin: 0px 10px;
+      background-color: #adc9da;
+      border-color: #4c5bb1; }
+  footer .redes {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px; } }
+
+@media (min-width: 768px) {
+  footer .sorteobox {
+    margin: auto;
+    padding: 20px;
+    width: 75%;
+    text-align: center;
+    background-color: #4e695f;
+    color: whitesmoke;
+    border: solid #147550;
+    border-radius: 30px;
+    border-width: 2.5px; }
+    footer .sorteobox .textosorteo {
+      text-decoration: underline; }
+    footer .sorteobox .parrasort .sort {
+      text-decoration: underline;
+      color: #0e358a; }
+    footer .sorteobox .premio {
+      border-style: solid;
+      border-radius: 15px;
+      width: 15%;
+      border-color: #0e358a;
+      border-width: 1.8px; }
+  footer .iconred {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; }
+    footer .iconred .botonred {
+      margin: 0px 10px;
+      background-color: #4e695f;
+      border-color: #147550; }
+  footer .redes {
+    color: whitesmoke;
+    text-align: center; } }

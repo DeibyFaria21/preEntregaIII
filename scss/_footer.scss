@@ -1,0 +1,89 @@
+footer{
+    @media (min-width: 320px) and (max-width: 767px){
+        .sorteobox{
+            margin: auto;
+            padding: 20px;
+            width: 75%;
+            text-align: center;
+            background-color: $color-bluesoft;
+            color: rgb(14, 53, 138);
+            border: solid $color-border-2;
+            border-radius: 30px;
+            border-width: 2.5px;
+            .textosorteo{
+                text-decoration: underline;
+            }
+            .parrasort{
+                .sort{
+                    text-decoration: underline;
+                    color: rgb(14, 53, 138);
+                }
+            }
+            .premio{
+                border-style: solid;
+                border-radius: 15px;
+                width: 15%;
+                border-color: rgb(14, 53, 138);
+                border-width: 1.8px;
+            }
+        }
+        .iconred{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            .botonred{
+                margin: 0px 10px;
+                background-color: $color-bluesoft;
+                border-color: $color-border-2;
+            }
+        }
+        .redes{
+            color: whitesmoke;
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+    @media (min-width: 768px){
+        .sorteobox{
+            margin: auto;
+            padding: 20px;
+            width: 75%;
+            text-align: center;
+            background-color: #4e695f;
+            color: whitesmoke;
+            border: solid $color-border-1;
+            border-radius: 30px;
+            border-width: 2.5px;
+            .textosorteo{
+                text-decoration: underline;
+            }
+            .parrasort{
+                .sort{
+                    text-decoration: underline;
+                    color: rgb(14, 53, 138);
+                }
+            }
+            .premio{
+                border-style: solid;
+                border-radius: 15px;
+                width: 15%;
+                border-color: rgb(14, 53, 138);
+                border-width: 1.8px;
+            }
+        }
+        .iconred{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            .botonred{
+                margin: 0px 10px;
+                background-color: #4e695f;
+                border-color: $color-border-1;
+            }
+        }
+        .redes{
+            color: whitesmoke;
+            text-align: center;            
+        }        
+    }
+}

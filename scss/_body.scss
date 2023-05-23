@@ -1,0 +1,35 @@
+@media (min-width: 320px) and (max-width: 767px){
+    body{
+        background: linear-gradient(rgb(98, 33, 173), rgb(52, 3, 92));
+        background-repeat: no-repeat;
+        background-size:auto;
+        font-family: JosefinSans-Medium;
+        line-height: 1.5;
+        main{
+            .keycapstitle{
+                text-align: center;
+                img{
+                    width: 6%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px){
+    body{
+        background: linear-gradient(rgb(67, 22, 117), rgb(37, 2, 66));
+        background-repeat: no-repeat;
+        background-size:auto;
+        font-family: JosefinSans-Medium;
+        line-height: 1.5;
+        main{
+            .keycapstitle{
+                text-align: center;
+                img{
+                    width: 6%;
+                }
+            }
+        }
+    }
+}
